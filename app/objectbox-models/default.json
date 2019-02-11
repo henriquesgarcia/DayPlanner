@@ -5,7 +5,7 @@
   "entities": [
     {
       "id": "1:7541823606367142700",
-      "lastPropertyId": "3:7632740888980607973",
+      "lastPropertyId": "6:1947471850129536408",
       "name": "Lembrete",
       "properties": [
         {
@@ -19,14 +19,78 @@
         {
           "id": "3:7632740888980607973",
           "name": "descricao"
+        },
+        {
+          "id": "4:6116882661739967763",
+          "name": "data"
+        },
+        {
+          "id": "5:3778286593760499606",
+          "indexId": "1:2203033965359220639",
+          "name": "lembreteId"
+        },
+        {
+          "id": "6:1947471850129536408",
+          "indexId": "2:2023277567467881348",
+          "name": "categoriaId"
         }
       ],
       "relations": []
+    },
+    {
+      "id": "2:5807295392512165743",
+      "lastPropertyId": "2:7512801715013888469",
+      "name": "Categoria",
+      "properties": [
+        {
+          "id": "1:2324233541269844164",
+          "name": "id"
+        },
+        {
+          "id": "2:7512801715013888469",
+          "name": "descricao"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:7919820527964480923",
+          "name": "lembretes"
+        }
+      ]
+    },
+    {
+      "id": "3:8358759798809200059",
+      "lastPropertyId": "4:7763490672546428216",
+      "name": "Usuario",
+      "properties": [
+        {
+          "id": "1:2975299541302835570",
+          "name": "id"
+        },
+        {
+          "id": "2:2953987964957941095",
+          "name": "nome"
+        },
+        {
+          "id": "3:533129928341303923",
+          "name": "email"
+        },
+        {
+          "id": "4:7763490672546428216",
+          "name": "senha"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:1499515408048374454",
+          "name": "lembretes"
+        }
+      ]
     }
   ],
-  "lastEntityId": "1:7541823606367142700",
-  "lastIndexId": "0:0",
-  "lastRelationId": "0:0",
+  "lastEntityId": "3:8358759798809200059",
+  "lastIndexId": "2:2023277567467881348",
+  "lastRelationId": "2:1499515408048374454",
   "lastSequenceId": "0:0",
   "modelVersion": 4,
   "modelVersionParserMinimum": 4,

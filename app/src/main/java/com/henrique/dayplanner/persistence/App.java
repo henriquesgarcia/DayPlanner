@@ -3,7 +3,7 @@ package com.henrique.dayplanner.persistence;
 import android.app.Application;
 import android.util.Log;
 
-import com.henrique.dayplanner.model.MyObjectBox;
+import com.example.henrique.dayplanner.model.MyObjectBox;
 
 import io.objectbox.BoxStore;
 import io.objectbox.android.AndroidObjectBrowser;
