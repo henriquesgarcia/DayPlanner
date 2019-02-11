@@ -12,7 +12,7 @@ public class Usuario {
     private String nome;
     private String email;
     private String senha;
-    ToMany<Lembrete> lembretes;
+    private ToMany<Lembrete> lembretes;
 
     public Usuario() {
     }

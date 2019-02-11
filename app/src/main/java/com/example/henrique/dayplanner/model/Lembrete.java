@@ -1,7 +1,10 @@
 package com.example.henrique.dayplanner.model;
 
+import java.util.Date;
+
 import io.objectbox.annotation.Entity;
 import io.objectbox.annotation.Id;
+import io.objectbox.relation.ToOne;
 
 @Entity
 public class Lembrete {
@@ -10,6 +13,8 @@ public class Lembrete {
     public long id;
     private String titulo;
     private String descricao;
+    private String data;
+    private ToOne<Lembrete> lembrete;
 
     public Lembrete() {
     }
@@ -36,5 +41,21 @@ public class Lembrete {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public ToOne<Lembrete> getLembrete() {
+        return lembrete;
+    }
+
+    public void setLembrete(ToOne<Lembrete> lembrete) {
+        this.lembrete = lembrete;
     }
 }
