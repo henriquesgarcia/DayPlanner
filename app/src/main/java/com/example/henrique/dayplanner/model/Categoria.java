@@ -2,6 +2,7 @@ package com.example.henrique.dayplanner.model;
 
 import io.objectbox.annotation.Entity;
 import io.objectbox.annotation.Id;
+import io.objectbox.relation.ToMany;
 
 @Entity
 public enum Categoria {
@@ -14,6 +15,7 @@ public enum Categoria {
     @Id
     private long id;
     private String descricao;
+    private ToMany<Lembrete> lembretes;
 
     Categoria(String descricao) {
         this.descricao = descricao;
@@ -23,4 +25,11 @@ public enum Categoria {
         return descricao;
     }
 
+    public ToMany<Lembrete> getLembretes() {
+        return lembretes;
+    }
+
+    public void setLembretes(ToMany<Lembrete> lembretes) {
+        this.lembretes = lembretes;
+    }
 }

@@ -15,6 +15,7 @@ public class Lembrete {
     private String descricao;
     private String data;
     private ToOne<Lembrete> lembrete;
+    private ToOne<Categoria> categoria;
 
     public Lembrete() {
     }
@@ -57,5 +58,13 @@ public class Lembrete {
 
     public void setLembrete(ToOne<Lembrete> lembrete) {
         this.lembrete = lembrete;
+    }
+
+    public ToOne<Categoria> getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(ToOne<Categoria> categoria) {
+        this.categoria = categoria;
     }
 }
