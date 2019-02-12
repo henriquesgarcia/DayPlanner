@@ -1,7 +1,7 @@
 # DayPlanner
-Aplicativo de Lembretes
-Disciplina: POO
-Professor: Rogério Silva
+Aplicativo de Lembretes <br />
+Disciplina: POO <br />
+Professor: Rogério Silva <br />
 ADS - IFPI
 
 ## Funcionalidades
