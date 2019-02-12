@@ -1,7 +1,5 @@
 package com.henrique.dayplanner.model;
 
-import com.example.henrique.dayplanner.model.Lembrete;
-
 import io.objectbox.annotation.Entity;
 import io.objectbox.annotation.Id;
 import io.objectbox.relation.ToMany;
