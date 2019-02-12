@@ -5,37 +5,29 @@ Professor: Rogério Silva <br />
 ADS - IFPI
 
 ## Funcionalidades
-- Organizar os livros em estados de:
-  - Lendo
-  - Lido
-  - Deseja Ler
+- Organizar os lembretes em estados de:
+  - Em andamento
+  - Concluído
 
-- Cadastrar Livros
+- Criar Lembretes
   - Título
+  - Descrição
+  - Data / Hora
+  - Toque
   - Categoria
-  - Autor
-  - Ano de Publicação
-  - Quantidade de Páginas
-  - Tags (obrigatoriamente 03)
 
-- Biblioteca
-  - Lista de livros desejados
-  - Passar os livros que desejar ler para o estado de lendo e por fim lidos
+- Editar Lembrete
 
-- Registrar progresso da leitura
-- Receber a página atual
-- Utilizar barra de progresso
+- Excluir Lembrete
 
-- Informar data inicial e final da leitura
+- Listar Lembretes Criados
 
-- Avaliação objetiva do livro
-  - Gostei
-  - Não gostei
-  - Comentário
+- Notificar com toque de alerta
+  - Mover lembrete para a lista de concluídos
+  - Ativar Soneca
 
-- Registrar tópicos do livro
-  - Capítulos
-  - Pequeno resumo de cada capítulo
+##Requisitos
+- Smartphone com Android 6.0 ou superior
   
 ## Diagrama
 <img src="Artefatos do Projeto/Diagrama.png" />
