@@ -11,12 +11,18 @@ public class Usuario {
 
     @Id
     private long id;
-    private String nome;
+    protected String nome;
     private String email;
     private String senha;
     private ToMany<Lembrete> lembretes;
 
     public Usuario() {
+    }
+
+    public Usuario(String nome, String email, String senha) {
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
     }
 
     public long getId() {

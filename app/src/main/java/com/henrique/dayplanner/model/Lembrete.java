@@ -1,6 +1,4 @@
-package com.example.henrique.dayplanner.model;
-
-import com.henrique.dayplanner.model.Categoria;
+package com.henrique.dayplanner.model;
 
 import io.objectbox.annotation.Entity;
 import io.objectbox.annotation.Id;
@@ -15,9 +13,17 @@ public class Lembrete {
     private String descricao;
     private String data;
     private ToOne<Lembrete> lembrete;
-    private ToOne<Categoria> categoria;
+    private Categoria categoria;
 
-    public Lembrete() {
+    public Lembrete(){
+
+    }
+
+    public Lembrete(String titulo, String descricao, String data, Categoria categoria) {
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.data = data;
+        this.categoria = categoria;
     }
 
     public long getId() {
@@ -60,11 +66,11 @@ public class Lembrete {
         this.lembrete = lembrete;
     }
 
-    public ToOne<Categoria> getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(ToOne<Categoria> categoria) {
+    public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 }
