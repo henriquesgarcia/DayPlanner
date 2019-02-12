@@ -15,9 +15,13 @@ public class Service {
 
     public void apagarLembrete(String lembreteEscolhido){
 
-        for (Lembrete lembrete : lembretes) {
-            if (lembrete.getTitulo().equals(lembreteEscolhido))
-                lembretes.remove(lembrete);
+        try {
+            for (Lembrete lembrete : lembretes) {
+                if (lembrete.getTitulo().equals(lembreteEscolhido))
+                    lembretes.remove(lembrete);
+            }
+        } catch (NullPointerException e){
+            System.out.println("O lembrete " + lembreteEscolhido + " não existe.");
         }
     }
 
@@ -25,14 +29,14 @@ public class Service {
 
         String listaDeLembretes = "";
 
-        if (lembretes.isEmpty())
-            listaDeLembretes = "Você não possui lembretes no momento";
-        else {
-
+        try {
             for (int i = 0; i < lembretes.size(); i++) {
                 listaDeLembretes += (i+1) + " - " + lembretes.get(i).getTitulo() + "\n";
             }
+        } catch (NullPointerException e){
+            listaDeLembretes = "Você não possui lembretes no momento";
         }
+
         return listaDeLembretes;
     }
 
