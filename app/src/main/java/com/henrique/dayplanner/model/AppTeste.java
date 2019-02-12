@@ -19,7 +19,10 @@ public class AppTeste {
             switch (opcao){
                 case 1:
                     JOptionPane.showInputDialog(menuCriarLembrete());
-                    String tituloLembrete = JOptionPane.showInputDialog("Título");
+                    String tituloLembrete = JOptionPane.showInputDialog("Título: ");
+                    String descricaoLembrete = JOptionPane.showInputDialog("Descrição: ");
+                    String dataLembrete = JOptionPane.showInputDialog("Data: ");
+                    Categoria categoriaLembrete = JOptionPane.showInputDialog("Categoria: ");
                     service.criarLembrete(tituloLembrete,descricaoLembrete,dataLembrete,categoriaLembrete);
                     break;
 
