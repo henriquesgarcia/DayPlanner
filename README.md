@@ -5,7 +5,7 @@ Professor: Rogério Silva <br />
 ADS - IFPI
 
 ## Resumo Geral
--Aplicativo Android para ajudar o usuário a organizar melhor o seu dia, criando lembretes para realizar alguma atividade naquele dia, seja tomar um remédio, realizar compras, realizar uma ligação, algum evento que acontecerá nesse dia e cada lembrete criado no dia, se encerra no final do mesmo para que você sempre organize o seu hoje e que o mesmo seja mais organizado e sem compromissos esquecidos. Por isso, ele foi pensado tanto para quem deseja organizar melhor o seu dia como para pessoas com a vida bastante agitada, idosos ou pessoas com alzheimer.
+Aplicativo Android para ajudar o usuário a organizar melhor o seu dia, criando lembretes para realizar alguma atividade naquele dia, seja tomar um remédio, realizar compras, realizar uma ligação, algum evento que acontecerá nesse dia e cada lembrete criado no dia, se encerra no final do mesmo para que você sempre organize o seu hoje e que o mesmo seja mais organizado e sem compromissos esquecidos. Por isso, ele foi pensado tanto para quem deseja organizar melhor o seu dia como para pessoas com a vida bastante agitada, idosos ou pessoas com alzheimer.
 
 ## Funcionalidades
 - Organizar os lembretes em estados de:
