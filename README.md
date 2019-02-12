@@ -28,7 +28,7 @@ Aplicativo Android para ajudar o usuário a organizar melhor o seu dia, criando 
 - Smartphone com Android 6.0 ou superior
   
 ## Diagrama
-<img src="Artefatos do Projeto/Diagrama.png" />
+<img src="diagrama_classe_projetoPOO.png" />
 
 ## Storyboard
 <img src="Artefatos do Projeto/Storyboard.PNG" />
