@@ -31,4 +31,4 @@ Aplicativo Android para ajudar o usuário a organizar melhor o seu dia, criando 
 <img src="diagrama_classe_projetoPOO.png" />
 
 ## Storyboard
-<img src="Artefatos do Projeto/Storyboard.PNG" />
+<img src="Storyboard.png" />
